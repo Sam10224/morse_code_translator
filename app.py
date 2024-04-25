@@ -27,7 +27,7 @@ It returns the index.html file located in the templates folder.
 """
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('html/index.html')
 
 @app.route('/text_to_morse', methods=['POST'])
 def text_to_morse():
